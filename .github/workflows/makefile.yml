@@ -18,10 +18,7 @@ jobs:
       run:  sudo apt-get install gcc libglfw3 libglfw3-dev libglew-dev ffmpeg
 
     - name: Install dependencies
-      run: cd src && make
-
-    - name: Run check
-      run: cd src && make check
+      run: cd src && make      
 
     - name: Run App
       run: ./src/ecosim
