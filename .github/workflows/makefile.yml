@@ -23,5 +23,5 @@ jobs:
     - name: Run check
       run: cd src && make check
 
-    - name: Run distcheck
-      run: cd src && make distcheck
+    - name: Run App
+      run: ./src/ecosim
